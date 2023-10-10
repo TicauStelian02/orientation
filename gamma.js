@@ -16,9 +16,8 @@ function on_device_orientation(evt) {
     var latura_patrat = 50;
 
     context.clearRect(0, 0, canvas.width, canvas.height);
-
-    // Modificați dimensiunea unghiului Gamma în intervalul -90 până la 90 pentru a se potrivi cu dimensiunea formei geometrice
-    var dimensiune = Math.abs(gamma) * 5; // Puteți ajusta factorul de scalare după preferință
+    
+    var dimensiune = Math.abs(gamma) * 5;
 
     context.fillStyle = "#6A0888";
     context.beginPath();
